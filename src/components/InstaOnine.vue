@@ -4,37 +4,37 @@
         <div class="insta-item set-bg" style="background-image: url('/img/insta-1.png')">
             <div class="inside-text">
                 <i class="ti-instagram"></i>
-                <h5><a href="https://instagram.com/onine.id">Onine.id</a></h5>
+                <h5><a href="https://instagram.com/onine.id" target="_blank">Onine.id</a></h5>
             </div>
         </div>
         <div class="insta-item set-bg" style="background-image: url('/img/insta-2.png')">
             <div class="inside-text">
                 <i class="ti-instagram"></i>
-                <h5><a href="https://instagram.com/onine.id">Onine.id</a></h5>
+                <h5><a href="https://instagram.com/onine.id" target="_blank">Onine.id</a></h5>
             </div>
         </div>
         <div class="insta-item set-bg" style="background-image: url('/img/insta-3.png')">
             <div class="inside-text">
                 <i class="ti-instagram"></i>
-                <h5><a href="https://instagram.com/onine.id">Onine.id</a></h5>
+                <h5><a href="https://instagram.com/onine.id" target="_blank">Onine.id</a></h5>
             </div>
         </div>
         <div class="insta-item set-bg" style="background-image: url('/img/insta-4.png')">
             <div class="inside-text">
                 <i class="ti-instagram"></i>
-                <h5><a href="https://instagram.com/onine.id">Onine.id</a></h5>
+                <h5><a href="https://instagram.com/onine.id" target="_blank">Onine.id</a></h5>
             </div>
         </div>
         <div class="insta-item set-bg" style="background-image: url('/img/insta-5.png')">
             <div class="inside-text">
                 <i class="ti-instagram"></i>
-                <h5><a href="https://instagram.com/onine.id">Onine.id</a></h5>
+                <h5><a href="https://instagram.com/onine.id" target="_blank">Onine.id</a></h5>
             </div>
         </div>
         <div class="insta-item set-bg" style="background-image: url('/img/insta-6.png')">
             <div class="inside-text">
                 <i class="ti-instagram"></i>
-                <h5><a href="https://instagram.com/onine.id">Onine.id</a></h5>
+                <h5><a href="https://instagram.com/onine.id" target="_blank">Onine.id</a></h5>
             </div>
         </div>
     </div>

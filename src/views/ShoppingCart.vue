@@ -91,15 +91,15 @@
                     <div class="col-lg-12">
                         <div class="proceed-checkout">
                             <ul>
-                                <li class="subtotal">ID Transaction <span>#SH12000</span></li>
-                                <li class="subtotal mt-3">Subtotal <span>Rp. {{totalHarga}}</span></li>
-                                <li class="subtotal mt-3">Pajak 10%<span>Rp. {{ditambahPajak}}</span></li>
+                                <li class="subtotal"><h4><b>Rincian Biaya :</b></h4></li>
+                                <!-- <li class="subtotal mt-3">Subtotal <span>Rp. {{totalHarga}}</span></li> -->
+                                <!-- <li class="subtotal mt-3">Pajak 10%<span>Rp. {{ditambahPajak}}</span></li> -->
                                 <li class="subtotal mt-3">Total Biaya <span>Rp. {{totalBiaya}}</span></li>
                                 <li class="subtotal mt-3">Bank Transfer <span>Mandiri</span></li>
                                 <li class="subtotal mt-3">No. Rekening <span>2208 1996 1403</span></li>
                                 <li class="subtotal mt-3">Nama Penerima <span>O-Nine</span></li>
                             </ul>
-                            <a @click="checkout()" href="#" class="proceed-btn">I ALREADY PAID</a>
+                            <a @click="checkout()" href="#" class="proceed-btn">Konfirmasi Pembayaran</a>
                         </div>
                     </div>
                 </div>
@@ -198,11 +198,12 @@ export default {
                 return items + data.price; //data.price di ambil dari API
             }, 0)
         },
-        ditambahPajak() {
-            return (this.totalHarga*10)/100;
-        },
+        // ditambahPajak() {
+        //     return (this.totalHarga*10)/100;
+        // },
         totalBiaya() {
-            return this.totalHarga + this.ditambahPajak;
+            // return Math.round(this.totalHarga + this.ditambahPajak);
+            return Math.round(this.totalHarga);
         }
     },
     
